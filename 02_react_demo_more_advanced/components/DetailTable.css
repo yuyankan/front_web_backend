@@ -1,0 +1,31 @@
+/* DetailTable.css */
+
+.detail-table-container {
+  flex: 1;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.detail-table th,
+.detail-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-table thead th {
+  background-color: #f2f2f2;
+}
+
+.no-data-cell {
+  text-align: center;
+  color: #999;
+}
